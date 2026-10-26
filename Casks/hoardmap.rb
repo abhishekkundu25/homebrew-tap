@@ -1,6 +1,6 @@
 cask "hoardmap" do
-  version "0.3.1"
-  sha256 "21a64f2925e0733f40ac8ae8ab12cc5bb671e2eef51b822ba6a7289bd9de1785"
+  version "0.3.2"
+  sha256 "5d88520e3fbb21f7d59726b53067e96dcc467da6e9f39ccb5b6a90e87d8f6971"
 
   url "https://github.com/abhishekkundu25/hoardmap/releases/download/v#{version}/Hoardmap.zip"
   name "Hoardmap"
