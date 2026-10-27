@@ -1,9 +1,9 @@
 class Hoardmap < Formula
   desc "See where your disk space went, in the browser; it only looks, never deletes"
   homepage "https://abhishekkundu25.github.io/hoardmap/"
-  url "https://github.com/abhishekkundu25/hoardmap/releases/download/v0.3.2/hoardmap-macos.tar.gz"
-  version "0.3.2"
-  sha256 "3db410faed9bdda948c20fc68a42fdaebd5c55885ce49b121ff49bc61d97be89"
+  url "https://github.com/abhishekkundu25/hoardmap/releases/download/v0.3.3/hoardmap-macos.tar.gz"
+  version "0.3.3"
+  sha256 "1a3cccee5c856b4eeefde58c0721f4ad68c02aa98eac68b565776b4a8f749999"
   license "MIT"
 
   depends_on :macos
