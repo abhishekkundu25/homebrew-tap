@@ -1,6 +1,6 @@
 cask "hoardmap" do
-  version "0.3.3"
-  sha256 "e30d7e9fd2b9d4d14c5ffd43e91ef2d27bf4db7fc847a8856f23b4e95b7700f5"
+  version "0.4.0"
+  sha256 "c9d0d54f731aa50e210dee82e4f49af6e10a2a658dbf3edf59014588f8fa5ca6"
 
   url "https://github.com/abhishekkundu25/hoardmap/releases/download/v#{version}/Hoardmap.zip"
   name "Hoardmap"
@@ -15,6 +15,7 @@ cask "hoardmap" do
   depends_on :macos
 
   app "Hoardmap.app"
+  binary "#{appdir}/Hoardmap.app/Contents/MacOS/hoardmap"
 
   # Clear the "downloaded from the internet" flag so the app opens straight away.
   postflight do

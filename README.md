@@ -5,8 +5,8 @@ went, as a list, a treemap and an icicle chart. It only looks: it never deletes,
 renames anything.
 
 ```sh
-brew install --cask abhishekkundu25/tap/hoardmap   # the Mac app
-brew install abhishekkundu25/tap/hoardmap          # the hoardmap command
+brew install --cask abhishekkundu25/tap/hoardmap
 ```
 
-Update with `brew upgrade`.
+This installs the app and the `hoardmap` command, which opens the app on a folder:
+`hoardmap ~/Developer`. Update with `brew upgrade`.
